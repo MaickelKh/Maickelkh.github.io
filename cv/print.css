@@ -1,0 +1,84 @@
+
+@media print {
+
+    body {
+        width:100%;
+        margin: 0;
+        box-shadow: none;
+        border-radius: none;
+        display: flex;
+        background: none;
+    }
+    
+    header {
+        padding: 0;
+        background:none;
+    }
+
+    .leftcol {
+        padding: 5%;
+        color: #000000;
+        background: none;
+    }
+
+    .leftcol h2 {
+        color: #113e9f;
+        padding-top: 15px;
+    }
+
+    .leftcol a {
+        display: none;
+    }
+
+    .rightcol  {
+        padding: 0;
+        margin: 3% 0 0 50px;
+    }
+
+    header img {
+        margin-left: 40px;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .forprint {
+        display: contents;
+    }
+
+    .forprint h1 {
+        margin-top: 20px;
+    }
+
+    .fa {
+        display: none;
+    }
+
+    .realisation {
+        display:none
+    }
+
+    .box {
+        margin: 20px 0;
+        display: flex;
+    }
+    
+    .year_company {
+        width: 30%;
+    }
+
+    h4 {
+        margin: 0px 0;
+        color:#113e9f;
+    }
+
+    .printh2 {
+        margin-top: 62px;
+    }
+
+    .progLang-bar {
+        display: none;
+    }
+
+  }
